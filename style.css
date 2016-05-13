@@ -1,0 +1,68 @@
+body {
+    font-family: "GameOfThrones", Arial, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    color: #FFF;
+    background-image: url('http://vignette4.wikia.nocookie.net/gameofthrones/images/f/f5/The_Wall.jpg/revision/latest?cb=20150323200738');
+    background-size: cover;
+}
+body img {
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    height: 700px;
+    top: 0px;
+    left: 0px;
+}
+body h1 {
+    font-stretch: semi-expanded;
+    font-size: 50px;
+    font-weight: normal;
+    text-shadow: -4px -4px #333;
+}
+body .turn {
+    margin-bottom: 10px;
+}
+body table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 0 auto;
+    background-image: url('http://vignette2.wikia.nocookie.net/gameofthrones/images/e/e5/1508_promo_stills_12001692731.jpg/revision/latest?cb=20150601040408');
+    opacity: 0.8;
+    background-size: cover;
+}
+body table td {
+    width: 200px;
+    height: 150px;
+    max-width: 400px;
+    max-height: 300px;
+    border: 3px solid #FFF;
+    cursor: url(sword.gif), auto;
+}
+body table td.cross:before {
+    content: url(jonsnow1.jpg);
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+}
+body table td.circle:before {
+    content: url(thorne1.jpg);
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+}
+body .reset {
+    background: #778899;
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #778899;
+    padding: 10px 40px;
+    color: #FFF;
+    cursor: url(sword.gif), auto;
+    font-family: "GameOfThrones", Arial, sans-serif;
+    text-transform: uppercase;
+}
+body .reset:hover {
+    opacity: 0.7;
+}
